@@ -136,10 +136,12 @@ const Contact = () => {
 							/>
 							<Input
 								onChange={onChangeHandler}
-								type="text"
+								type="number"
 								value={phoneNo}
 								label="Mobile Number"
 								name="phoneNo"
+								max="10"
+								min="10"
 								required
 							/>
 							<Textarea
